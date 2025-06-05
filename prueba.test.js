@@ -1,4 +1,4 @@
-const cadenaInversa = require('./cadena');
+const cadenaInversa = require('./Node');
 
 test('Invierte la cadena "hola" a "aloh"', ()=>{
     expect(cadenaInversa('hola')).toBe('aloh');
